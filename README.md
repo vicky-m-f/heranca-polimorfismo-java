@@ -4,21 +4,37 @@
 
 Programa que cadastra funcionários de diferentes cargos e calcula
 a bonificação de fim de ano de cada um usando polimorfismo.
+
 ## Hierarquia de classes
+
 src
+
 └── funcionarios
+
 ├── app
+
 │ └── ProgramaFuncionario.java
+
 │
+
 ├── model
+
 │ ├── Funcionario.java
+
 │ ├── Programador.java
+
 │ ├── Gerente.java
+
 │ ├── Diretor.java
+
 │ └── Estagiario.java
+
 │
+
 └── service
+
 └── ControleDeBonificacoes.java
+
 
 ## Como executar
 1. Compile o programa
